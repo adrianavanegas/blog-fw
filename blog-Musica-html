@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <script src='js/bootstrap.min.js'></script>
+	<title>Blog Música con Bootstrap</title>
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+	<header class="container">
+		<div class="row ">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+				<img class='logo-img' src='img/logo.png'/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-9 col-md-7 col-sm-7"></div>
+			<div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 text-center">
+				<a href="#"><img class='img-rounded img-social' src='img/fb.png'/></a> 
+				<a href="#"><img class='img-rounded img-social' src='img/ig.png'/></a>
+				<a href="#"><img class='img-rounded img-social' src='img/tt.png'/></a>
+				<a href="#"><img class='img-rounded img-social' src='img/yt.png'/></a>
+				<a href="#"><img class='img-rounded img-social' src='img/pr.png'/></a>
+			</div>			
+		</div>
+	</header>
+
+	<nav class="navbar navbar-static-top container">
+		<ul class="nav nav-justified">
+			<li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-danger">Inicio</button></a></li>
+			<li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-danger">Artistas</button></a></li>
+			<li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-danger">Grupos</button></a></li>
+			<li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-danger">Top 10</button></a></li>
+			<li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-danger">Letras</button></a></li>
+			<li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-danger">Acordes</button></a></li>			  
+		</ul>
+	</nav>
+
+	<div class="container contenido">		
+		<div class="row">
+			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+				<div class="container-fluid text-center">	
+					<div class="row">
+						<div class="col-lg-9 col-md-9 col-sm-9">
+							<h2 class="text-uppercase font-weight-bold">Ed Sheeran Releases Perfect Video</h2>
+							<p class="text-justify">Ed Sheeran has released a fantastic video to accompany his brand new single 'Perfect'. Filmed in picturesque Austria, it stars rising actress Zoey Deutch alongside Ed in a wonderfully festive affair. The video was directed by Jason Koenig.</p>							
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<img src="img/foto1.jpg" class="img-rounded fotos">
+						</div>					
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+						<img src="img/pj.png">
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+						<form role='form'>
+	          				<textarea type="text" placeholder="Opina" class="form-control"></textarea>
+						</form>	
+					</div>
+				</div>
+
+				<div class="container-fluid text-center">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<img src="img/foto2.jpg" class="img-rounded fotos">
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9">
+							<h2 class="text-uppercase font-weight-bold">Honda Civic Tour - ONEREPUBLIC</h2>
+							<p class="text-justify">While creating their fourth and most recent studio album, Oh My My, the band took hold of the sights and sounds of each city they visited to create music unlike anything they’ve made before. In 2017, the band is releasing even more new music, starting with single "No Vacancy", so we can’t wait to see what else is next.</p>							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+						<img src="img/pj.png">
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+						<form role='form'>
+	            			<textarea type="text" placeholder="Opina" class="form-control"></textarea>
+						</form>	
+					</div>
+				</div>
+
+				<div class="container-fluid text-center">	
+					<div class="row">
+						<div class="col-lg-9 col-md-9 col-sm-9">
+							<h2 class="text-uppercase font-weight-bold">EMINEM PREPARA LANZAMIENTO DE NUEVO DISCO</h2>
+							<p class="text-justify">“No se preocupen, ya estoy trabajando en un nuevo disco” afirmó", este álbum tiene ya cuatro años de diferencia con The Marshall Mathers LP2, considerado como su ultimo trabajo extenso, fue un álbum especial por sus hits como: The Monster, trabajo hecho en compañía de Rihanna, asi como Rap god. Pues el artista suele tomarse un buen tiempo en la producción entre álbum y álbum.</p>							
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<img src="img/foto3.jpg" class="img-rounded fotos">
+						</div>					
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+						<img src="img/pj.png">
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+						<form role='form'>
+	            			<textarea type="text" placeholder="Opina" class="form-control"></textarea>
+						</form>	
+					</div>
+				</div>		
+			</div>
+
+			<div class="col-lg-3 col-md-3 busqueda">
+				<div class="form">
+					<div class="input-group">
+      					<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+     					 <input id="busqueda" type="text" class="form-control" name="busqueda" placeholder="Search">
+    				</div>
+				</div>
+
+  				<ul class="list-group">
+					<li class="list-group-item">Rock</li>
+					<li class="list-group-item">Pop</li>
+					<li class="list-group-item">Latin Music</li>
+					<li class="list-group-item">Videos</li>
+					<li class="list-group-item">Fotos</li>
+					<li class="list-group-item">News</li>
+					<li class="list-group-item">Álbumes Nuevos</li>
+					<li class="list-group-item">Tour</li>
+					<li class="list-group-item">Eventos</li>
+					<li class="list-group-item">Festivales</li>
+					<li class="list-group-item">Reseñas</li>
+					<li class="list-group-item">Nuevos Artistas</li>
+				</ul>				
+			</div>
+		</div>
+		
+	</div>	
+
+</body>
+</html>
