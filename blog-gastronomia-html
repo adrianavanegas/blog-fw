@@ -1,0 +1,157 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Gastronomía con Foundation</title>    
+    <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  </head>
+  <body>
+    <div class="grid-container contenido">
+      
+        <div class="grid-x">
+          <div class="cell">
+            <h1>Gastronomía</h1>
+          </div>
+          <div class="cell small-11 small-offset-1">
+            Tan sencillo como programa
+          </div>
+        </div>
+
+      <div class="grid-x full" >         
+        <div class="column small-4 hide-for-small-only">
+          <hr>
+          <div class="grid-container contenedorizq ">            
+            <div class="grid-x buscador">
+              <div class="cell medium-8">
+                <input type="text" placeholder="Buscar"> 
+              </div>
+              <div class="cell medium-4">          
+                <a href="#" class="button"><i class="step fi-magnifying-glass"></i></a>                
+              </div>              
+            </div>
+            <div class="row columns collapse">
+              <ul class="vertical menu align-center">
+                <li><a href="#" class="button hollow">Inicio</a></li>
+                <li><a href="#" class="button hollow">Mi Plato Perfecto</a></li>
+                <li><a href="#" class="button hollow">Mis Recetas</a></li>
+              </ul>
+            </div>       
+            <div class="gird-y">
+              <div class="row columns">
+                <h3>Favoritos</h3>
+                <div class="grid-x" >
+                  <div class="small-4 columns" >
+                      <img src="img/food1.jpg" class="comida thumbnail" />
+                  </div>
+                  <div class="small-4 columns">
+                    <img src="img/food2.jpg" class="comida thumbnail"/>
+                  </div>
+                  <div class="small-4 columns">
+                    <img src="img/food3.jpg" class="comida thumbnail"/>
+                  </div>
+                </div>
+                <div class="grid-x">
+                  <div class="small-4 columns" >
+                      <img src="img/food4.jpg" class="comida thumbnail" />
+                  </div>
+                  <div class="small-4 columns">
+                    <img src="img/food5.jpg" class="comida thumbnail"/>
+                  </div>
+                  <div class="small-4 columns">
+                    <img src="img/food6.jpg" class="comida thumbnail"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row columns historial">
+              <h3>Historial</h3>
+              <ul class="vertical menu align-right">
+                <li><a href="#" class="button hollow">Postres</a></li>
+                <li><a href="#" class="button hollow">Tortas</a></li>
+                <li><a href="#" class="button hollow">Hamburguesas</a></li>
+                <li><a href="#" class="button hollow">Pizzas</a></li>
+                <li><a href="#" class="button hollow">Pollo</a></li>
+                <li><a href="#" class="button hollow">Pezcado</a></li>
+                <li><a href="#" class="button hollow">Mariscos</a></li>
+                <li><a href="#" class="button hollow">Carnes</a></li>
+              </ul>              
+            </div>
+          </div>
+        </div>
+
+        <div class="column large-8 medium-8 small-12">
+          <hr>
+          <div class="grid-container" > 
+            <div class="row columns contenedorder" >
+              <h3>Spagueti Carbonara</h3>
+              <h4>17 Diciembre 2017</h4>
+              <p align="justify">
+                <strong>Preparación</strong><br>Cuando ya lleve uno 5 u 8 minutos hirviendo el espaguetti en el agua vamos a poner un sarten a fuego alto y vamos a colocar el tocino rebanado en cuadritos, dejar que suelte la grasa y ya que este doradito poner el diente de ajo picado muy finamente en cuadritos.Ya que veamos que tomo color dorado el ajo, poner la pasta que ya debe de estar cocida directo al sarten en donde tenemos el tocino y el ajo, y le colocamos la mantequilla.Ya que freimos unos segundos el espaguetti con el tocino y el ajo le ponemos Queso Parmesano al gusto y lo mezclamos, apagamos el fuego.Para algunos el sigueinte paso va a sonar algo extraño pero creanme les va a encantar el resultado.Ya que apagamos nuestra lumbre vamos a poner los dos huevos estrellasdos crudos sobre nuestro espaguetti que sigue en el sarten y lo vamos a mezclar uniendo perfectamente que quede una consistencia cremosa, no dejar el fuego encendido porque vamos a terminar con huevos revueltos.
+              </p>
+              <img src="img/food7.jpg" class="thumbnail imgcontenido"> 
+
+              <div class="grid-x">
+                <div class="cell">
+                  <label>Escriba un comentario:
+                    <textarea placeholder=""></textarea>
+                  </label>                   
+                </div>
+                <div class="cell" align="right">
+                  <a href="#" class="button" >Enviar</a>                
+                </div>
+              </div>
+            </div>
+            <div class="row columns" style="height: 10px"></div>
+            <div class="row columns contenedorder">
+              <h3>Omelet de Salchicha</h3>
+              <h4>17 Noviembre 2017</h4>
+              <img src="img/food8.jpg" class="thumbnail imgcontenido">
+              <p align="justify">
+                <strong>Preparación</strong><br><strong>Guiso Salchicha:</strong>Picar la cebolla en cubitos muy pequeños y freir en un poco de aceite. Ya que esta suave poner el picante (opcional) y la salchica en rodajas.Freir 1 minutos y poner el pure de tomate y el Knorr Suiza. Dejar que se cocina 1 minuto a fuego bajo, apagar y reservar.<br><strong>Huevos:</strong>En un plato hondo poner dos huevos y batirlos con la sal y la pimienta. En un sarten poner el aceite y la mantequilla y dejar que caliente, luego poner los huevos revueltos y dejar que se haga una torta o tortilla. Voltear una vez que se haya cocido de abajo. En el lado cocido poner el guiso de salchicha.
+              </p>
+              <div class="grid-x">
+                <div class="cell">
+                  <label>Escriba un comentario:
+                    <textarea placeholder=""></textarea>
+                  </label>                   
+                </div>
+                <div class="cell" align="right">
+                  <a href="#" class="button" >Enviar</a>                
+                </div>
+              </div>               
+            </div>
+            <div class="row columns" style="height: 10px"></div>
+            <div class="row columns contenedorder">
+              <h3>Torta Oreo y Chocolate</h3>
+              <h4>17 Octubre 2017</h4>
+              <p align="justify">
+                <strong>Preparación</strong><br>Comenzaremos preparando la base de la lasaña y para ello trituraremos las galletas oreo. Derretimos la manteca y unimos esta con las galletas trituradas hasta que se integre bien. Lo colocaremos como base en un molde rectangular. Meteremos en la heladera y dejaremos que enfríe. La segunda capa que hacemos es el postre ligero de chocolate para que se vaya enfriando. En una cazuela ponemos la maicena, la sal y el azúcar y la leche, lo colocamos a fuego medio y no dejamos de remover hasta que vaya espesando, tardará unos 8-10 minutos. En este momento apartaremos la cazuela del fuego y agregamos el chocolate removiéndolo para que se derrita por completo,Finalmente añadiremos el extracto de vainilla. Verteremos en un cuenco y removeremos cada cinco minutos para que vaya cogiendo cuerpo al enfriarse. Mientras tanto montamos la crema con el azúcar impalpable. Sacaremos de la nevera la base de galleta y sobre ella pondremos una capa de nata, sobre la misma una capa de pudin ligero de chocolate, nuevamente una capa de nata y decoraremos con las gotas de chocolate. Conservar en heladera por 2 horas
+              </p>
+              <img src="img/food9.jpg" class="thumbnail imgcontenido">
+              <div class="grid-x">
+                <div class="cell">
+                  <label>Escriba un comentario:
+                    <textarea placeholder=""></textarea>
+                  </label>                   
+                </div>
+                <div class="cell" align="right">
+                  <a href="#" class="button" >Enviar</a>                
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
