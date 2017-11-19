@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!--Importar la fuente de los íconos de Google-->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<title>Blog Turismo con Materialize</title>
+	<link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">
+</head>
+<body>
+	<div class="row fondo"></div>
+	<div class="container-flex">
+
+		<div class="col row navegador" align="right">
+			<a href="#" class="waves-effect waves-light btn"><i class="material-icons left">home</i>Inicio</a>
+			<a href="#" class="waves-effect waves-light btn"><i class="material-icons left">explore</i>Destinos</a>
+			<a href="#" class="waves-effect waves-light btn"><i class="material-icons left">landscape</i>Tours</a>
+			<a href="#" class="waves-effect waves-light btn"><i class="material-icons left">camera_alt</i>Fotos</a>
+		</div>
+		<div class="row ">
+			<div class="col s4">
+				<img src="img/logo.jpg" class="logo card hoverable">
+			</div>
+			<div class="col s8 white-text slogan">
+				<p>Tan divertido como programar</p>
+			</div>
+		</div>
+		<div class="row galeria">
+			<div class="col s1 m1 l1 hide-on-small-only" align="left">
+				<a href="#"><img src="img/fb.png" class="img-icono"></a>
+				<a href="#"><img src="img/ig.png" class="img-icono"></a>
+				<a href="#"><img src="img/tt.png" class="img-icono"></a>
+				<a href="#"><img src="img/yt.png" class="img-icono"></a>
+				<a href="#"><img src="img/pr.png" class="img-icono"></a>				
+		   	</div>
+		   	<div class=" col s11 m11 l11">
+		   		<div class="row">
+		   			<div class="col m4 l4">
+		   				<img src="img/foto1.jpg" class="responsive-img card hoverable">
+		   				<img src="img/foto2.jpg" class="responsive-img card hoverable">
+		   			</div>
+		   			<div class="col m4 l4">
+		   				<img src="img/foto3.jpg" class="responsive-img card hoverable">
+		   				<img src="img/foto4.jpg" class="responsive-img card hoverable">
+		   				<img src="img/foto7.jpg" class="responsive-img card hoverable">
+		   			</div>
+		   			<div class="col m4 l4">
+		   				<img src="img/foto5.jpg" class="responsive-img card hoverable">
+		   				<img src="img/foto6.jpg" class="responsive-img card hoverable">
+		   			</div>
+		   		</div>
+		   	</div>	
+		</div>
+
+		<div class="row">
+			<div class="col m8 l8">
+				<div class="container-flex contenido">									
+					<div class="row">
+						<div class="col m6 l4">
+							<img src="img/fotoc1.jpg" class="img-contenido card hoverable">
+						</div>
+						<div class="col m6 l8">
+							<h3 class="white-text">Osaka</h3>
+							<div class="chip card hoverable">
+					    		<i class="material-icons">location_on</i>
+					    		Osaka-Japón					    		
+        					</div>
+        					<div class="chip card hoverable">
+					    		<i class="material-icons">insert_invitation</i>
+					    		17 Noviembre 2017
+        					</div>
+							<p class="white-text" align="justify">As a center of Japanese subculture music and fashion, Osaka is a city that marches to the beat of its own funky drum.<br>Japan’s third-largest city, it’s also one of its tastiest – food is a big and proud part of Osakan’s identity who are reputed to spend more on food than anything else.  It’s an important part of the Osaka experience to ‘kuidaore’, or eat until you drop, and there’s an enormous variety of local foods to choose from. Takoyaki and okonomiyaki are the most famous dishes to try, while there’s also kushikatsu, teppanyaki, kitsune udon, as well as the city’s own versions of ramen and kaiseki cuisine.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col m12">
+							<p class="white-text" align="justify">Osaka can be divided into two main areas; the uptown Kita in the north and the downtown Minami to the south which roughly equate to day and night in the city. Kita is where you’ll find the central station and business, commercial and retail hub of Umeda. Head to the Floating Garden Observatory on the 39th floor of the Umeda Sky Building for some spectacular views of the city’s skyline.</p>	
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col m6 l8">
+							<h3 class="white-text">Shikoku</h3>
+							<div class="chip card hoverable">
+					    		<i class="material-icons">location_on</i>
+					    		Shikoku-Japón					    		
+        					</div>
+        					<div class="chip card hoverable">
+					    		<i class="material-icons">insert_invitation</i>
+					    		17 Diciembre 2017
+        					</div>
+							<p class="white-text" align="justify">Find yourself on Japan's zen island.<br>Shikoku, the smallest of Japan's four islands, is a hidden gem of history and spirituality. Shikoku, the smallest and least populated of Japan’s four islands, is probably it’s most zen destination. The pre Honshu-Shikoku bridge years of isolation can be felt throughout the island; from the hidden Iya valley to the sacred peak of Ishizuchi mountain, to the whirlpools of Naruto and the bustling castle town of Matsuyama with its historic Dogo onsen (hot spring bath).</p>
+						</div>
+						<div class="col m6 l4">
+							<img src="img/fotoc2.jpg" class="img-contenido card hoverable">
+						</div>						
+					</div>
+					<div class="row">
+						<div class="col m12"¿>
+							<p class="white-text" align="justify">Shikoku is most famous for its ‘88 Temple’ pilgrimage – an ancient 1400 kilometer route that circles through sweeping valleys, past tranquil streams and secret rural communities, up to misty mountaintop shrines and self-realisation. Although modern pilgrims have the option to follow the route by bus, it’s worth making at least some of the 40 day route on foot to really experience what Shikoku has to offer.</p>	
+						</div>
+					</div>
+					<div class="row">
+						<form class="col s12 pink darken-4 white-text">
+					      <div class="row">
+					      	<div class="input-field col m6">
+					            <i class="material-icons prefix">account_circle</i>
+					          	<input id="icon_prefix" type="text" class="validate">
+					          	<label for="icon_prefix">Nombre</label>
+					        </div>
+					        <div class="input-field col m6">
+					        	<i class="material-icons prefix">email</i>
+					          	<input id="email" type="email" class="validate">
+					          	<label for="email">Email</label>
+					        </div>
+					        <div class="input-field col s12">
+					        	<i class="material-icons prefix">mode_edit</i>
+						        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+						        <label for="icon_prefix2">Comenta</label>
+					        </div>
+					        <div class="input-field col m3 push-m9">
+					        	<button class="btn waves-effect waves-light" type="submit" name="action">
+					        		Enviar<i class="material-icons right">send</i>
+  								</button>
+					        </div>					        
+					      </div>					      
+					    </form>					    
+					</div>											
+				</div>			
+			</div>
+			<div class="col s4 m4 l4">
+				<div class="row">
+			        <div class="col">
+			          <div class="card center-align" >
+			            <div class="card-content">
+			            	<img src="img/autor.jpg" class="circle">
+			            	<h3>Mr. Bean</h3>
+			            	<hr>
+			              	<p>Un extraño y simpático personaje.1​ Es patoso a más no poder, y sus situaciones son muy cómicas. Tal vez por eso se haya considerado que es un ángel caído bastante ingenuo en el mundo terrenal. De ahí, que al inicio de cada capítulo el personaje cayera de una luz blanca procedente del cielo. Mr. Bean raras veces habla, y cuando lo hace, por lo general sólo son unas pocas palabras murmuradas que están en una voz cómicamente de tono bajo. El humor viene en gran parte de sus soluciones originales (y muchas veces absurdas) a los problemas y su total desprecio por los demás en la resolución de ellos, su mezquindad y maldad ocasional.</p>
+			            </div>
+			          </div>
+			        </div>
+			    </div>
+			</div>			
+		</div>
+			
+	</div>
+
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
