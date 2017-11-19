@@ -1,0 +1,41 @@
+body{
+  font-family: 'Shadows Into Light';
+  background-color: #581845;
+}
+header{
+  background-color: #900C3F;
+}
+.navbar{
+  background-color: #C70039;
+}
+.logo-img {
+  width: 150px;
+  padding: 1%;
+  margin-left: 2%;
+}
+.img-social {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 1%;
+}
+.contenido{
+  background-color: #FF5733;
+  padding: 1em;
+  font-size: 20px;
+}
+.btn-danger{
+  width: 80%;
+}
+.fotos{
+  height: 10em;
+  padding: 1em;
+}
+.jumbotron{
+  padding: 2px;
+}
+
+@media(max-width: 768px){
+  .busqueda{
+    display: none;
+  }
+}
